@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">App Prueba SQLite</string>
+    <string name="btn_registrar">Registrar</string>
+    <string name="btn_modificar">Modificar</string>
+    <string name="btn_borrar">Borrar</string>
+    <string name="btn_consultar">Consultar</string>
+    <string name="hint_et_nombre">Introduce el nombre</string>
+    <string name="hint_et_email">Introduce el email</string>
+    <string name="btn_guardar">Guardar</string>
+    <string name="btn_limpiar">Limpiar</string>
+    <string name="no_datos">Debe introducir todos los datos</string>
+    <string name="insert_ok">La inserción se ha realizado correctamente</string>
+    <string name="insert_ko">La inserción no se ha podido realizar</string>
+    <string name="hint_et_id">Introduci el identificador</string>
+    <string name="btn_buscar">Buscar</string>
+    <string name="no_id">Debe introducir un identificador</string>
+    <string name="no_contacto">No exite ningún contacto para el id introducido</string>
+    <string name="update_ok">La modificación se ha realizado correctamente</string>
+    <string name="consultta">Consulta contactos</string>
+    <string name="servidor">Introduce El servidor de correo</string>
+    <string name="et_nombre">NOmbre</string>
+    <string name="et_email">Email</string>
+    <string name="btn_guardar_b">Borrar</string>
+    <string name="btn_cancelar">Limpiar</string>
+    <string name="et_id_hint">Id</string>
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ModificarActivity">
+
+    <LinearLayout
+        android:id="@+id/llIdM"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp">
+
+        <EditText
+            android:id="@+id/etIdM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/hint_et_id"
+            android:inputType="number"/>
+
+        <Button
+            android:id="@+id/btnBuscarM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/btn_buscar"
+            android:onClick="buscar"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/etNombreM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/llIdM"
+        android:layout_marginTop="45dp"
+        android:enabled="false"
+        android:hint="@string/hint_et_nombre" />
+
+    <EditText
+        android:id="@+id/etEmailM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etNombreM"
+        android:layout_marginTop="45dp"
+        android:enabled="false"
+        android:hint="@string/hint_et_email"
+        android:inputType="textEmailAddress"/>
+
+    <Button
+        android:id="@+id/btnGuardarM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etEmailM"
+        android:layout_marginTop="45dp"
+        android:text="@string/btn_guardar"
+        android:enabled="false"
+        android:onClick="guardar"/>
+
+    <Button
+        android:id="@+id/btnLimpiarM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnGuardarM"
+        android:layout_marginTop="25dp"
+        android:text="@string/btn_limpiar"
+        android:enabled="false"
+        android:onClick="limpiar"/>
+
+</RelativeLayout>

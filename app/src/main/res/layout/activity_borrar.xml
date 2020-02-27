@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BorrarActivity">
+
+    <EditText
+        android:id="@+id/etIdB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="@string/et_id_hint"
+        android:inputType="numberSigned" />
+
+    <Button
+        android:id="@+id/btnBuscarB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginRight="34dp"
+        android:onClick="buscarB"
+        android:text="@string/btn_buscar" />
+
+    <EditText
+        android:id="@+id/etNombreB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="142dp"
+        android:ems="10"
+        android:enabled="false"
+        android:hint="@string/et_nombre"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etEmailB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="219dp"
+        android:ems="10"
+        android:enabled="false"
+        android:hint="@string/et_email"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/btnGuardarB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="147dp"
+        android:enabled="false"
+        android:onClick="borrar"
+        android:text="@string/btn_guardar_b" />
+
+    <Button
+        android:id="@+id/btnCancelarB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btnGuardarB"
+        android:layout_alignRight="@+id/btnGuardarB"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="88dp"
+        android:onClick="cancelarB"
+        android:text="@string/btn_cancelar" />
+
+</RelativeLayout>
